@@ -12,91 +12,224 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Blogku</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link "  href="index.html">Branda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="profile.html">Profil</a>
-              </li>
-            </ul>
+      <body class="index-page">
+        <header id="header" class="header d-flex align-items-center sticky-top">
+          <div
+            class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between"
+          >
+            <a href="index.html" class="logo d-flex align-items-center">
+              <h1 class="sitename">Irfan Ramadhani</h1>
+            </a>
+    
+            <nav id="navmenu" class="navmenu">
+              <ul>
+                <li>
+                  <a href="#hero" class="active">Home<br /></a>
+                </li>
+                <li><a href="#about">About</a></li>
+                <li class="dropdown">
+                  <a href="#"
+                    ><span>Resume</span>
+                    <i class="bi bi-chevron-down Toggle-Resume"></i
+                  ></a>
+                  <ul>
+                        <i class="bi bi-chevron-down Toggle-Resume"></i
+                      ></a>
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+              <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
           </div>
-      </nav>
-      <!-- Header Section -->
-  <div class="container mt-5">
-    <div class="row">
-      <div class="col-md-4">
-        <img src="images/irfan.jpeg" class="img-fluid rounded-circle" alt="Profile Picture">
-      </div>
-      <div class="col-md-8">
-        <h1>Irfan Ramadhani</h1>
-        <p>Tehnik Informatika</p>
-        <p>irfanramadhani1710e@gmail.com | Telepon: 08989837450</p>
-        <p>LinkedIn: linkedin.com/in/username | GitHub: github.com/username</p>
-      </div>
-    </div>
-  </div>
-
-  <!-- Summary Section -->
-  <div class="container mt-5">
-    <h2>Summary</h2>
-    <p>Seorang Digital Marketing Strategist dengan pengalaman dalam merancang dan menerapkan strategi pemasaran digital yang efektif untuk meningkatkan brand awareness dan konversi. Lulusan dari Universitas Borcelle dengan pengetahuan yang mendalam tentang SEO, SEM, analisis data, dan manajemen media sosial.</p>
-  </div>
-  <!-- Experience Section -->
-  <div class="container mt-5">
-    <h2>Experience</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <h5>IDE LPKIA</h5>
-        <p><strong>Jabatan</strong> | Januari 2020 - Desember 2022</p>
-        <p>Deskripsi pekerjaan atau proyek yang pernah Anda kerjakan di perusahaan ini.</p>
-      </div>
-      <div class="col-md-12">
-        <h5>Nama Perusahaan Lain</h5>
-        <p><strong>Jabatan</strong> | Januari 2018 - Desember 2019</p>
-        <p>Deskripsi pekerjaan atau proyek yang pernah Anda kerjakan di perusahaan ini.</p>
-      </div>
-    </div>
-  </div>
-  <!-- Education Section -->
-  <div class="container mt-5">
-    <h2>Education</h2>
-    <div class="row">
-      <div class="col-md-12">
-        <h5>Insitut digital ekonomi LPKIA</h5>
-        <p><strong>Program Studi</strong> | Tahun Masuk - Tahun Lulus</p>
-        <p>Deskripsi singkat tentang pendidikan, penghargaan, atau proyek akademik yang relevan.</p>
-      </div>
-    </div>
-  </div>
-   <!-- Skills Section -->
-   <div class="container mt-5">
-    <h2>Skills</h2>
-    <div class="row">
-      <div class="col-md-4">
-        <ul>
-          <li>Skill 1</li>
-          <li>Skill 2</li>
-          <li>Skill 3</li>
-        </ul>
-        
-  <!-- Footer Section -->
-  <div class="container mt-5">
-    <p class="text-center">© 2024 Nama Anda. Semua Hak Dilindungi.</p>
-  </div>
-
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+        </header>
+    
+        <main class="main">
+          <!-- Hero Section -->
+          <section id="hero" class="hero section dark-background">
+            <img src="images/panjul.jpg" alt="" data-aos="fade-in" />
+    
+            <div
+              class="container d-flex flex-column align-items-center justify-content-center text-center"
+              data-aos="fade-up"
+              data-aos-delay="100"
+              <p>
+                <span
+                  class="typed"
+                  data-typed-items="Designer, Developer, Freelancer, Photographer"
+                ></span>
+              </p>
+            </div>
+          </section>
+          <!-- /Hero Section -->
+    
+          <!-- About Section -->
+          <div class="container content-container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                          <h5 class="card-title">About me</h5>
+                            <p class="card-text">Saya seorang mahasiswa jurusan Ilmu Komputer di Institut Digital Ekonomi LPKIA dengan semangat tinggi dalam mengembangkan keahlian di bidang teknologi dan bisnis. Aktif terlibat dalam organisasi kampus seperti HMIF dan HIPMI, serta berpartisipasi dalam kegiatan ekstrakurikuler seperti futsal. Memiliki ketertarikan dalam pengembangan diri dan kolaborasi tim, serta memiliki hobi bermain sepak bola yang melatih kerja sama dan ketangguhan. Bertekad untuk menerapkan pengetahuan dan keterampilan saya dalam proyek-proyek yang berdampak positif serta terus belajar untuk meningkatkan kemampuan profesional saya.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <div class="card-body">
+                          <p class="card-text"><strong>Name:</strong> Irfan Ramadhani</p>
+                          <p class="card-text"><strong>Profile:</strong> Mahasiswa</p>
+                          <p class="card-text"><strong>Email:</strong> irfanramadhani1710@gmail.com</p>
+                          <p class="card-text"><strong>Phone:</strong> 08989837450</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </section>
+          <!-- /About Section -->
+    
+            <!-- Section Title -->
+            <div class="container content-container">
+              <h2>Student</h2>
+              <p>
+                Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+                consectetur velit
+              </p>
+            </div>
+            <!-- End Section Title -->
+            <div class="container content-container">
+              <div class="row">
+                  <div class="col-md-20">
+                      <div class="card mb-20">
+                          <div class="card-body">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+                  <h3 class="resume-title">Sumary</h3>
+    
+                  <div class="resume-item pb-0">
+                   
+                    <p>
+                      <em
+                        >Innovative and deadline-driven Graphic Designer with 3+
+                        years of experience designing and developing user-centered
+                        digital/print marketing material from initial concept to
+                        final, polished deliverable.</em>
+                    </p>
+                    <ul>
+                      <li>Portland par 127,Orlando, FL</li>
+                      <li>(123) 456-7891</li>
+                      <li>alice.barkley@example.com</li>
+                    </ul>
+                  </div>
+                  <!-- Edn Resume Item -->
+    
+                  <h3 class="resume-title">EDUCATION</h3>
+                  <div class="resume-item">
+                    
+                    <h5>2017 - 2020</h5>
+                    <p><em>SMP NEGRI KOTA CIREBON</em></p>
+                    <h5>2020 - 2023</h5>
+                    <p><em>SMA NEGRI 5 KOTA CIREBON</em></p>
+                    <h5>2024 - 2025</h5>
+                    <p><em>Insitit Digital Ekonomi LPKIA</em></p>
+                    
+                  </div>
+                  <!-- Edn Resume Item -->
+
+                  <!-- Edn Resume Item -->
+                </div>
+    
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+                  <h3 class="resume-title">HARD SKILL</h3>
+                  <div class="resume-item">
+                    <ul>
+                      <li>
+                        Programming Languages Poficient
+                      </li>
+                      <li>
+                        Microsoft Powerpoin
+                      </li>
+                      <li>
+                        Microsoft Excel
+                      </li>
+                      <li>
+                        Canva
+                      </li>
+                    </ul>
+                  </div>
+                  <!-- Edn Resume Item -->
+    
+                  <div class="resume-item">
+                    <h4>HOBBIES</h4>
+                    <ul>
+                      <li>
+                        Developed numerous marketing programs (logos,
+                        brochures,infographics, presentations, and advertisements).
+                      </li>
+                      <li>
+                        Managed up to 5 projects or tasks at a given time while
+                        under pressure
+                      </li>
+                      <li>
+                        Recommended and consulted with clients on the most
+                        appropriate graphic design
+                      </li>
+                      <li>
+                        Created 4+ design presentations and proposals a month for
+                        clients and account managers
+                      </li>
+                    </ul>
+                  </div>
+          <!-- Contact Section -->
+          <section id="contact" class="contact section">
+            <!-- Section Title -->
+            <section id="about" class="about section"
+              <h2>Contact</h2>
+            </div>
+            <!-- End Section Title -->
+    
+            <div class="container" data-aos="fade-up" data-aos-delay="100">
+              <div class="info-wrap" data-aos="fade-up" data-aos-delay="200">
+                <div class="row gy-5">
+                  <div class="col-lg-4">
+                    <div class="info-item d-flex align-items-center">
+                      <i class="bi bi-geo-alt flex-shrink-0"></i>
+                      <div>
+                        <h3>Address</h3>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+                      </div>
+                    </div>
+                  </div>
+    
+                  <div class="col-lg-4">
+                    <div class="info-item d-flex align-items-center">
+                      <i class="bi bi-telephone flex-shrink-0"></i>
+                      <div>
+                        <h3>Call Us</h3>
+                        <p>0898-9837-450</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Info Item -->
+    
+                  <div class="col-lg-4">
+                    <div class="info-item d-flex align-items-center">
+                      <i class="bi bi-envelope flex-shrink-0"></i>
+                      <div>
+                        <h3>Email Us</h3>
+                        <p>irfanramadhani1710@gmail.com</p>
+                      </div>
+                    </div>
+                  </div>
+                  <!-- End Info Item -->
+                </div>
+              </
+        </main>
+
+      </body>
+    </html>
+    
 </body>
 </html>
